@@ -1151,7 +1151,6 @@
                 "cp -r res/* /app/share/e-juice-calc/res/",
                 "mkdir -p /app/share/metainfo /app/share/appdata /app/share/applications /app/share/icons/hicolor/scalable/apps",
                 "cp packaging/com.szibele.e-juice-calc.appdata.xml /app/share/metainfo/",
-                "cp packaging/com.szibele.e-juice-calc.appdata.xml /app/share/appdata/",
                 "cp packaging/com.szibele.e-juice-calc.desktop /app/share/applications/",
                 "cp res/icon2.svg /app/share/icons/hicolor/scalable/apps/com.szibele.e-juice-calc.svg",
                 "for size in 16 24 32 48 64 128 256 512; do
@@ -1168,6 +1167,10 @@
                     "sha256": "a678ddda81eded804313d7f6a4ffdea10019b72ecdde37844b385c8dcaecdb7d",
                     "type": "archive",
                     "url": "https://gitlab.com/rszibele/e-juice-calc/-/archive/1.0.5/e-juice-calc-1.0.5.tar.gz"
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
                 }
             ]
         }

@@ -1,0 +1,11 @@
+--- e-juice-calc-1.0.5/packaging/com.szibele.e-juice-calc.appdata.xml~	2019-01-03 22:49:17.682858975 +0000
++++ e-juice-calc-1.0.5/packaging/com.szibele.e-juice-calc.appdata.xml	2019-01-03 22:49:23.970904703 +0000
+@@ -13,7 +13,7 @@
+         </p>
+     </description>
+     <content_rating type="oars-1.1" />
+-    <launchable type="desktop-id">com.szibele.e-juice-calc</launchable>
++    <launchable type="desktop-id">com.szibele.e-juice-calc.desktop</launchable>
+     <screenshots>
+         <screenshot type="default">
+             <caption>The main E-Juice-Calc window</caption>
