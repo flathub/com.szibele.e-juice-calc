@@ -1161,7 +1161,7 @@
             "only-arches": [],
             "sources": [
                 {
-                    "sha256": "d0765438e45987f34750b0758b0a11449f62e141a0d4805be56c112bc5b40384",
+                    "sha256": "7cee96be18295cb4417c17b435da4183449897274d1e876fbb7136db7f16e950",
                     "type": "archive",
                     "url": "https://gitlab.com/rszibele/e-juice-calc/-/archive/1.0.6/e-juice-calc-1.0.6.tar.gz"
                 }
