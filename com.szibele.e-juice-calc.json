@@ -101,6 +101,27 @@
         },
         {
             "build-commands": [
+                "mkdir -p /app/lib",
+                "ln -s /lib/aarch64-linux-gnueabihf/libtinfo.so /app/lib/libtinfo.so.5",
+                "./configure --prefix=/app",
+                "make install"
+            ],
+            "buildsystem": "simple",
+            "cleanup": [],
+            "name": "ghc-8.6.2-aarch64",
+            "only-arches": [
+                "aarch64"
+            ],
+            "sources": [
+                {
+                    "sha256": "841d4cf0673a4db44d93082f56479ffd679bd369c67d715e7b288630ec7eb4f0",
+                    "type": "archive",
+                    "url": "https://github.com/commercialhaskell/ghc/releases/download/ghc-8.6.2-release/ghc-8.6.2-aarch64-deb8-linux.tar.xz"
+                }
+            ]
+        },
+        {
+            "build-commands": [
                 "ghc -threaded --make Setup",
                 "./Setup configure --prefix=/app",
                 "./Setup build",
@@ -1073,9 +1094,9 @@
             "only-arches": [],
             "sources": [
                 {
-                    "sha256": "9360433ac7fccfa2ba78f9f6ccd28c806c3e6f93f1b9bdc343e5ebe742df69c3",
+                    "sha256": "96a927992267c26c1ea230e7487498762e19d806110553a2655ed33a861e7a55",
                     "type": "archive",
-                    "url": "https://gitlab.com/rszibele/e-juice-calc/-/archive/1.0.7/e-juice-calc-1.0.7.tar.gz"
+                    "url": "https://gitlab.com/rszibele/e-juice-calc/-/archive/1.0.7/e-juice-calc-1.0.7.tar.bz2"
                 }
             ]
         }
