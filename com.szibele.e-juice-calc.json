@@ -35,7 +35,6 @@
         "--socket=x11",
         "--share=ipc"
     ],
-    "force-arches": ["i386", "x86_64"],
     "modules": [
         {
             "build-commands": [
