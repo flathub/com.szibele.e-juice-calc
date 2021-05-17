@@ -33,7 +33,8 @@
     "command": "e-juice-calc",
     "finish-args": [
         "--socket=x11",
-        "--share=ipc"
+        "--share=ipc",
+        "--device=dri"
     ],
     "modules": [
         {
@@ -1081,6 +1082,6 @@
         }
     ],
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.15",
     "sdk": "org.kde.Sdk"
 }
